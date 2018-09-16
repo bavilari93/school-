@@ -1,6 +1,5 @@
 $(()=>{
 	function makeLines(num, left) {
-		console.log(num);
   if (num > 0 & left < 450) {
     left += 30;
     var cm = '<div class="cm" id="line' + num + '"></div>';
