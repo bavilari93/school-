@@ -5,6 +5,10 @@
 body {
   background: #F0E8DA;
   font-family: 'Caveat', cursive; }
+  body h1 {
+    font-size: 2rem;
+    color: black;
+    margin-top: -5rem; }
 
 .container {
   margin: auto;
@@ -51,16 +55,42 @@ body {
     border-radius: 100%;
     background: black; }
   .face .right {
-    margin-left: 2rem;
+    margin-left: 3rem;
     margin-top: -1.2rem; }
   .face .mouth {
-    margin-left: .6rem;
-    margin-top: .3rem;
-    height: 1.5rem;
+    margin-left: 1.2rem;
+    margin-top: .5rem;
+    height: 1.1rem;
     width: 1.5rem;
     border-radius: 0 0 100% 100%;
     border-style: solid;
     border-width: .2rem;
     border-top: none; }
+
+.pencil {
+  background: #7BC950;
+  width: 25rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  margin-top: 10rem; }
+  .pencil :before {
+    position: absolute;
+    content: '';
+    width: 2rem;
+    height: .59rem;
+    border-left: 60px solid #D4915D;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    margin-left: 24.9rem; }
+  .pencil :after {
+    position: absolute;
+    content: '';
+    width: .1rem;
+    height: .5rem;
+    border-left: 30px solid #333;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    margin-left: 27rem;
+    margin-top: .5rem; }
 
 /*# sourceMappingURL=style.css.map */

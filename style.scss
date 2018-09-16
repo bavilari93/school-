@@ -6,6 +6,11 @@
 body {
     background: #F0E8DA;
     font-family: 'Caveat', cursive;
+    h1 {
+        font-size: 2rem;
+        color: black;
+        margin-top: -5rem;
+    }
 }
 
 .container {
@@ -65,16 +70,16 @@ body {
     }
     .right {
         margin: {
-            left: 2rem;
+            left: 3rem;
             top: -1.2rem;
         }
     }
     .mouth {
         margin: {
-            left: .6rem;
-            top: .3rem;
+            left: 1.2rem;
+            top: .5rem;
         }
-        height:1.5rem;
+        height:1.1rem;
         width:1.5rem;
         border: {
             radius: 0 0 100% 100%;
@@ -82,5 +87,41 @@ body {
             width: .2rem;
             top: none;
         }
+    }
+}
+
+.pencil {
+    $left-border: solid;
+    $transparent-border: solid transparent;
+    background: #7BC950;
+    width: 25rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    margin-top: 10rem;
+     :before {
+        position: absolute;
+        content: '';
+        width: 2rem;
+        height: .59rem;
+        border: {
+            left:60px $left-border #D4915D;
+            top: 15px $transparent-border;
+            bottom:15px $transparent-border;
+        }
+        margin-left:24.9rem;
+    }
+     :after {
+        position: absolute;
+        content: '';
+        width: .1rem;
+        height: .5rem;
+        border: {
+        	left:30px $left-border #333;
+        	top:7px $transparent-border;
+        	bottom:7px $transparent-border;
+        }
+        margin-left:27rem;
+        margin-top:.5rem;
+
     }
 }
